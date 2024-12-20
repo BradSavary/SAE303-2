@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAE3.DWeb-DI.03 base code</title>
+    <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="stylesheet" href="./src/css/MarkerCluster.Default.css" />
+  </head>
+  <body>
+    <section id="header">
+      <div id="stackedbar"></div>
+      <input id="stackedbarlimit" type="number" value="10">
+      <div class="buttons">
+        <button id="allbachelier">All Bacheliers</button>
+       <button id="neobacheliers">Néo-Bacheliers</button>
+       <button id="bacheliers">Anciens Bacheliers</button>
+      </div>
+    </section>
+    <div id="map"></div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
